@@ -1,13 +1,14 @@
 import "../styles/DiaryTemplate.scss";
-import DiaryBody from "./DiaryBody";
-import DiaryMenu from "./DiaryMenu";
+import React, { useState } from "react";
 
 function DiaryTemplate() {
+  const [title, setTitle] = useState("");
+  const [DiaryText, setDiaryText] = useState("");
+
   return (
-    <div className="DiaryTemplate">
-      <div>HOME</div>왜 안뿌려져~~~~~~~~~~~~~~~~~
-      <DiaryBody></DiaryBody>
-      <DiaryMenu></DiaryMenu>
+    <div className="DiaryTemplateLeft">
+      <div className="bookdot"></div>
+      <div className="DiaryTemplateRight"></div>
     </div>
   );
 }

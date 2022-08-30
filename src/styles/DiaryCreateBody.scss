@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(227, 253, 253);
+}
+
+.DiaryBodyLeft {
+  width: 292px;
+  height: 760px;
+  border-radius: 15px;
+  margin-top: 17px;
+  margin-left: -300px;
+  text-align: center;
+  background-color: rgb(166, 227, 233);
+}
+// width: 292px;
+//   height: 760px;
+//   float: left;
+//   margin-left: 10px;
+//   margin-top: 4px;
+//   border-radius: 15px;
+//   ;
+
+.DiaryBodyRight {
+  background-color: rgb(255, 255, 255);
+  margin: -760px 0px;
+  width: 1195px;
+  height: 760px;
+  border-radius: 15px;
+  position: absolute;
+}

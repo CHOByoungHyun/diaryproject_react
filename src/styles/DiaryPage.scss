@@ -1,8 +1,58 @@
-.DiaryPage {
-  width: 60%;
-  height: 380px;
-  float: right;
-  margin-left: 20px;
-  border-radius: 4px;
-  background-color: cornflowerblue;
+> .DiaryPage {
+  width: 1590px;
+  height: 720px;
+  background-color: rgb(46, 42, 42);
+  border: 1px solid red;
+  margin-top: 100rem;
+}
+
+.DiaryTitle {
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 1px solid #c5f6fa;
+  width: 80%;
+  padding-left: 8px;
+  padding-top: 2px;
+  border: 1px solid black;
+  margin-left: 69px;
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.onSubmitButton {
+  width: 80px;
+  height: 25px;
+  background: rgb(103, 191, 196);
+  // #22b8cf;
+  border-radius: 3px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid rgb(103, 191, 196);
+  display: inline;
+  margin-left: 10px;
+  padding-top: 2px;
+}
+
+.DiaryText {
+  resize: none;
+  padding-top: 10px;
+  padding-left: 10px;
+  resize: none;
+  border: 1px solid black;
+  margin: 10px 65px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+input:focus {
+  border: 1px solid rgb(103, 191, 196);
+  width: 80%;
+  outline: none;
+}
+textarea:focus {
+  border: 1px solid rgb(103, 191, 196);
+  outline: none;
 }

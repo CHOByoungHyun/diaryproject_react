@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+/* .mi {
+  width: 70px;
+  height: 35px;
+  border: 1px solid red;
+  margin-left: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.miokay {
+  width: 70px;
+  height: 35px;
+  border: 1px solid blue;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mi-1,
+.mi-2 {
+  width: 70px;
+  height: 35px;
+  background-color: rgb(166, 227, 233);
+  position: absolute;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
   color: white;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #a6e3e9;
+  left: 1708px;
+  font-size: 15px;
+  margin-top: 50px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.mi {
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mi-2 {
+  margin-top: 100px;
 }
+/* .mi-1:focus {
+  color: rgb(166, 227, 233);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
+.mi-2:focus {
+  color: rgb(166, 227, 233);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+} */
+
+/* .mi-1 :active {
+  color: rgb(166, 227, 233);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+} */

@@ -1,11 +1,11 @@
-import "../styles/DiaryButton.scss";
+// import "../styles/DiaryButton.scss";
 
-function DiaryButton() {
-  return (
-    <div className="DiaryButton">
-      <div>일기장 버튼</div>
-    </div>
-  );
-}
+// function DiaryButton() {
+//   return (
+//     <div className="DiaryButton">
+//       <a href="#">버튼</a>
+//     </div>
+//   );
+// }
 
-export default DiaryButton;
+// export default DiaryButton;
