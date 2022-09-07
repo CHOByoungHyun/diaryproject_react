@@ -12,7 +12,8 @@
 } */
 
 .mi-1,
-.mi-2 {
+.mi-2,
+.mi-3 {
   width: 70px;
   height: 35px;
   background-color: rgb(166, 227, 233);
@@ -22,7 +23,7 @@
   align-items: center;
   color: white;
   border-radius: 0 5px 5px 0;
-  border: 1px solid #a6e3e9;
+  border: 1.9px solid #a6e3e9;
   left: 1708px;
   font-size: 15px;
   margin-top: 50px;
@@ -36,6 +37,9 @@
 
 .mi-2 {
   margin-top: 100px;
+}
+.mi-3 {
+  margin-top: 150px;
 }
 /* .mi-1:focus {
   color: rgb(166, 227, 233);
@@ -53,3 +57,30 @@
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(255, 255, 255);
 } */
+
+.DiaryTemplateLeft {
+  background-color: rgb(113, 201, 206);
+  width: 300px;
+  height: 800px;
+  margin: 4.5rem 200px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.DiaryTemplateRight {
+  background-color: rgb(113, 201, 206);
+  width: 1204px;
+  height: 800px;
+  margin: -4px 305px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.bookdot {
+  width: 1505px;
+  height: 775px;
+  margin: 9px 2px;
+  border: 2px dashed white;
+  border-radius: 15px;
+  position: absolute;
+}

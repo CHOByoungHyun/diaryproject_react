@@ -1,13 +1,19 @@
-import "../styles/DiaryList.scss";
-import DiaryListItem from "./DiaryListItem";
+// import React from "react";
+// import DiaryListItem from "./DiaryListItem";
+// import "../styles/DiaryList.scss";
 
-function DiaryList() {
-  return (
-    <div className="DiaryList">
-      <div> 일기 리스트 창 </div>
-      <DiaryListItem></DiaryListItem>
-    </div>
-  );
-}
+// function DiaryList({ diaryArticles, onDiaryItemClick }) {
+//   return (
+//     <div className="DiaryList">
+//       {diaryArticles.map((diaryArticle) => (
+//         <DiaryListItem
+//           diaryArticle={diaryArticle}
+//           key={diaryArticle.id}
+//           onClickHandler={onDiaryItemClick}
+//         />
+//       ))}
+//     </div>
+//   );
+// }
 
-export default DiaryList;
+// export default DiaryList;

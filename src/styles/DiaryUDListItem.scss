@@ -1,0 +1,25 @@
+.DiaryUDListItem {
+  width: 280px;
+  height: 80px;
+  float: left;
+  margin-left: -34px;
+  border-radius: 15px;
+  margin-top: -10px;
+  margin-bottom: 22px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DiaryUD-A {
+  margin-left: 5px;
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.Trash {
+  margin-left: 12px;
+  cursor: pointer;
+  z-index: 1;
+}

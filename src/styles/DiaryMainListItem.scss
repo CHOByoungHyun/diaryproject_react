@@ -1,0 +1,25 @@
+.DiaryMainListItem {
+  width: 280px;
+  height: 80px;
+  float: left;
+  margin-left: -34px;
+  border-radius: 15px;
+  margin-top: -10px;
+  margin-bottom: 22px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DiaryMain-A {
+  z-index: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.ellipsis {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
